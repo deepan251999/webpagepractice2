@@ -1,3 +1,6 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
 .navigation{
     width: 1349px;
     display: flex;
@@ -5,6 +8,7 @@
     position: sticky;
     top:0;
     background-color: #fff;
+    z-index: 999;
 }
 .green{
     width: 30%;
@@ -321,4 +325,93 @@ margin-bottom: 20px;
 .call-to-action button:hover{
     color: #5cb874;
     background-color: #fff;
+}
+.portfolio-all-app{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-all-app li{
+    margin-top: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 14px;
+    font-weight: 600;
+}
+.porfolio-all{
+    list-style-type: none;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #5cb874;
+    border-radius: 5px;
+}
+.porfolio-app{
+    list-style-type: none;
+    padding: 10px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.porfolio-card{
+    list-style-type: none;
+    padding: 10px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.porfolio-web{
+    list-style-type: none;
+    padding: 10px;
+    color: #222222;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.porfolio-app:hover{
+    color: #fff;
+    background-color: #5cb874;
+}
+
+.porfolio-card:hover{
+    color: #fff;
+    background-color: #5cb874;
+}
+.porfolio-web:hover{
+    color: #fff;
+    background-color: #5cb874;
+}
+/* PORTFOLIO IMAGE */
+.portfolio-img-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding: 0px 110px 0px 110px;
+}
+.portfolio-img{
+          width:370px;
+}
+.portfolio-img img{
+    padding: 10px;
+}
+.portfolio-content-link{
+    position: relative;
+}
+.portfolio-link{
+         position: absolute;
+         height: 40px;
+         width:80px;
+         /* top: 0; */
+}
+.portfolio-link h1{
+     padding: 0px 0px 10px 20px ;
+}
+.portfolio-link h4{
+    padding: 0px 0px 10px 20px ;
+}
+.portfolio-link .icofont-plus{
+color: #6ec083;
+
+}
+.icofont-link{
+
 }
