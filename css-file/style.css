@@ -380,38 +380,104 @@ margin-bottom: 20px;
     background-color: #5cb874;
 }
 /* PORTFOLIO IMAGE */
-.portfolio-img-flex{
+.porfolio-flex{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    justify-content: space-evenly;
-    padding: 0px 110px 0px 110px;
+    margin-top:30px ;
+}
+.portfolio-item{
+    width:200px ;
+    height: 200px;
+    border: 2px solid red ;
 }
 .portfolio-img{
-          width:370px;
-}
-.portfolio-img img{
-    padding: 10px;
-}
-.portfolio-content-link{
-    position: relative;
-}
-.portfolio-link{
-         position: absolute;
-         height: 40px;
-         width:80px;
-         /* top: 0; */
-}
-.portfolio-link h1{
-     padding: 0px 0px 10px 20px ;
-}
-.portfolio-link h4{
-    padding: 0px 0px 10px 20px ;
-}
-.portfolio-link .icofont-plus{
-color: #6ec083;
 
 }
-.icofont-link{
 
+
+/* TEAM */
+.team-flex{
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 100px 0px 100px;
+    justify-content: space-around;
+}
+.team-item{
+    width: 340px;
+    height: 430px;
+}
+.team-item img{
+    border-radius: 50%;
+    margin: 0px 0px 0px 72px ;
+}
+.team-item h1{
+    color: #222222;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.team-item h2{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    text-align: center;
+}
+.team-item p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+    text-align: center;
+}
+.team-item i{
+    padding: 5px;
+    font-size: 20px;
+}
+.team-icon{
+    margin: 30px 0px 0px 100px;
+}
+.team-icon a{
+    text-decoration: none;
+    color: #444444;
+    opacity: 0.5;
+}
+.team-icon a i:hover{ 
+    color: #5cb874;
+}
+/* CONTACT */
+.contact-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+    margin-top: 30px;
+}
+.contact-item1{
+    /* position: relative; */
+    width: 478px;
+    height:500px;
+    border: 2px solid red;
+} 
+.contact-item2{
+    width: 650px;
+    height: 500px;
+    border: 2px solid green;
+}
+.contact-circle{
+    /* position: absolute; */
+    height: 40px;
+    width: 40px;
+    background-color: #5cb874;
+    border-radius: 50%;
+    margin: 30px 0px 0px 30px;
+}
+.icofont-location-pin{
+    position: absolute;
+    font-size: 30px;
+    /* top:0; */
+}
+.secondary-flex{
+    display: flex;
 }
