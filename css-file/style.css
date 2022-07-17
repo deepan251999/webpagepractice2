@@ -549,11 +549,16 @@ textarea{
     border: none;
     margin-left: 220px;
 }
+.contact-item2 button:hover{
+    background-color: #6ec083;
+    transition: 0.5s;
+}
 /* FINAL SECTION */
 .final{
     margin-top: 30px;
-    height: 500px;
+    height: 340px;
     background: #090909;
+    position: relative;
 }
 .final h2{
     font-size: 36px;
@@ -568,15 +573,80 @@ textarea{
     color: #fff;
     font-size: 14px;
     text-align: center;
+    letter-spacing: 1px;
 }
 .final a{
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+}
+.final-contant{
+    font-style: italic;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.final-design{
+    font-style: italic;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.final span{
+    color: #5cb874;
+    
 }
 .final-icon{
-    height: 20px;
-    width: 250px;
-    border: 2px solid red;
-    margin-left: 150px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.final-circle{
+    height: 40px;
+    width: 40px;
+    background-color: #5cb874;
+    border-radius: 50%;
+    margin: 2px;
+}
+.final .icofont-twitter{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    margin-left: 575px;
+    font-size: 24px;
+}
+.final .icofont-facebook{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    margin-left: 620px;
+    font-size: 24px;
+}
+.final .icofont-instagram{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    margin-left: 663px;
+    font-size: 24px;
+}
+.final .icofont-skype{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    margin-left: 708px;
+    font-size: 24px;
+}
+.final .icofont-linkedin{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    margin-left: 752px;
+    font-size: 24px;
+}
+.final-circle:hover {
+    background-color: green;
+    cursor: pointer;
 }
