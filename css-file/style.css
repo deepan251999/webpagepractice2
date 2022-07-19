@@ -558,7 +558,6 @@ textarea{
     margin-top: 30px;
     height: 340px;
     background: #090909;
-    position: relative;
 }
 .final h2{
     font-size: 36px;
@@ -599,54 +598,19 @@ textarea{
     color: #5cb874;
     
 }
-.final-icon{
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-.final-circle{
-    height: 40px;
-    width: 40px;
-    background-color: #5cb874;
+.final a i{
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 10px;
     border-radius: 50%;
-    margin: 2px;
-}
-.final .icofont-twitter{
-    position: absolute;
-    top: 0;
-    margin-top: 165px;
-    margin-left: 575px;
+    background-color: #5cb874;
     font-size: 24px;
 }
-.final .icofont-facebook{
-    position: absolute;
-    top: 0;
-    margin-top: 165px;
-    margin-left: 620px;
-    font-size: 24px;
+.final a i:hover{
+    background-color: #198754;
+    transition: 0.5s;
 }
-.final .icofont-instagram{
-    position: absolute;
-    top: 0;
-    margin-top: 165px;
-    margin-left: 663px;
-    font-size: 24px;
+.final-icon{
+    margin: 0px 541px;
 }
-.final .icofont-skype{
-    position: absolute;
-    top: 0;
-    margin-top: 165px;
-    margin-left: 708px;
-    font-size: 24px;
-}
-.final .icofont-linkedin{
-    position: absolute;
-    top: 0;
-    margin-top: 165px;
-    margin-left: 752px;
-    font-size: 24px;
-}
-.final-circle:hover {
-    background-color: green;
-    cursor: pointer;
-}
+
