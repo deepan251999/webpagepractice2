@@ -382,18 +382,60 @@ margin-bottom: 20px;
 /* PORTFOLIO IMAGE */
 .porfolio-flex{
     display: flex;
+    justify-content: space-around;
     margin-top:30px ;
-}
-.portfolio-item{
-    width:200px ;
-    height: 200px;
-    border: 2px solid red ;
+    padding: 0px 100px;
 }
 .portfolio-img{
+    position: relative;
+    margin: 20px;
 
 }
-
-
+.portfolio-img:hover{
+    transform: scale(1.6);
+    overflow: hidden;
+}
+.portfolio-contant{
+    position:absolute;
+    bottom: 0;
+    z-index: 1;
+    /* display: none; */
+    opacity: 0;
+}
+.portfolio-contant h1{
+     padding: 0px 0px 10px 30px;
+}
+.portfolio-contant h2{
+    padding: 0px 0px 10px 30px;
+}
+.portfolio-contant .icofont-plus{
+    display: inline-block;
+    padding: 0px 0px 20px 40px;
+    color: #fff;
+}
+.portfolio-contant .icofont-link{
+    display: inline-block;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
+    /* opacity: 0; */
+}
+.portfolio-bacground{
+    position: absolute;
+    top: 0;
+    background: rgba(34, 34, 34, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    /* z-index: 2; */
+}
+.portfolio-img:hover .portfolio-bacground{
+    opacity: 1;
+    transition: 2s;
+}
+.portfolio-img:hover .portfolio-contant{
+    opacity: 1;
+    transition: 2s;
+}
 /* TEAM */
 .team-flex{
     display: flex;
@@ -540,6 +582,16 @@ textarea{
     margin: 20px;
     height: 140px;
     width: 552px;
+}
+input:focus{
+    outline: 1px solid #5cb874;
+    border: none;
+    transition: 0.5s;
+}
+textarea:focus{
+    outline: 1px solid #5cb874;
+    border: none;
+    transition: 0.5s;
 }
 .contact-item2 button{
     padding: 15px 40px;
